@@ -65,11 +65,7 @@ header{
     width: 240px;
     height: 200px;
     margin-top: 40px;
-}
-#nasaLogoTwo{
-    width: 240px;
-    height: 200px;
-    margin-top: 40px;
+    margin-left: -70px;
 }
 h1{
     color: white;

@@ -8,6 +8,8 @@ fetch(`https://api.nasa.gov/planetary/apod?api_key=4zfIgf0hDo0BDPSEfxaIIvvKlUfAP
             document.querySelector('#videoOfDay').style.display = 'none'
           }else if(data.media_type === 'video'){
             document.querySelector('#videoOfDay').src = data.url
+            document.querySelector('#pictureOfDay').style.display = 'none'
+
             }
         document.querySelector('.explanation').innerHTML = data.explanation
         })
