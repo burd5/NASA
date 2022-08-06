@@ -9,7 +9,7 @@
 Link to project: https://burd5.github.io/NASA/
 
 <h2>How It's Made:</h2>
-Tech used: HTML, CSS, JavaScript, API
+Tech used: HTML, CSS, JavaScript, API<br></br>
 
 These NASA images are so incredible that I wanted to make sure they were the focal point of the webpage. The HTML is simple, just some headers, a form for searching, and space for the image descriptions at the bottom. For styling, I wanted to keep things simple as well. I used a black background to give it more of a "space" feel. I used a color picker to grab the hexidecimal values of the NASA logo and incorporated them into the header and button colors. The bulk of the JavaScript involved fetching the image and image description from the API. An event listener was added to the button that allowed the user to fetch data based on the specific date they entered. 
 
