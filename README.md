@@ -1,6 +1,6 @@
 <h1>Denver Astronomical Society Picture of the Day</h1>
 
-<img src="burd5.github.gif" alt="gif of webpage">
+<img src="burd5.github.gif" alt="gif of webpage" href="https://burd5.github.io/NASA/">
 
 <br></br>
 
