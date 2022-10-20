@@ -75,7 +75,7 @@ h1{
     letter-spacing: 5px;
     border: 2px solid white;
     border-radius: 50px;
-    padding: 10px 0px;
+    padding: 10px;
 }
 
 /*
@@ -134,4 +134,28 @@ Explanation
     margin-bottom: 40px;
 }
 
+
+
+@media screen and (max-width: 700px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #nasaLogo{
+        margin: 0 auto;
+    }
+
+    #pictureOfDay{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 48px;
+        margin-top: 20px;
+        flex-basis: none;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+}
 
